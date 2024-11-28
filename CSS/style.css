@@ -1,0 +1,106 @@
+
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.PCCONTAINER {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #3e3b55, #2b283b);
+    border-radius: 15px;
+    border: 2px solid #fff;
+    color: #ffffff;
+}
+
+
+.option-btn {
+    width: 120px;
+    height: 120px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ea4545, #da6565);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.option-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(145deg, #ff6b6b, #ff9e9e);
+}
+
+
+#playerName {
+    font-size: 18px;
+    padding: 12px 15px; 
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background: #fff;
+    color: #000;
+    width: 300px; 
+    min-width: 200px; 
+    margin-left: 45px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+#resetGame {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6b6b;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#resetGame:hover {
+    background: #ff9e9e;
+}
+
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    
+}
+
+
+#ESCOLHAPC {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffed85;
+    animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
